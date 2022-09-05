@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "contact": "0123",
+      "address": "US"
+    },
+    {
+      "id": 2,
+      "name": "jame bond",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "contact": "0456",
+      "address": "India"
+    },
+    {
+      "name": "new user",
+      "email": "n@gmail.com",
+      "address": "ádwqe12",
+      "id": 4
+    }
+  ]
+}

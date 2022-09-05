@@ -1,0 +1,5 @@
+chạy 2 cmd
+
+crud-v1 > npm run server => run server
+
+crud-v1 > npm start => run app
