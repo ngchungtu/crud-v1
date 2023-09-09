@@ -28,7 +28,7 @@ export const loadUsers = () => {
         axios
         .get(`${process.env.REACT_APP_API}`)
         .then((response) =>{
-            console.log('resp', response);
+            console.log('resp_loadUsers', response);
             dispatch(getUsers(response.data))
         })
         .catch((error) =>{
@@ -72,7 +72,7 @@ export const getSingleUser = (id) => {
         axios
         .get(`${process.env.REACT_APP_API}/${id}`)
         .then((response) =>{
-            console.log('resp', response);
+            console.log('resp_getSingleUsers', response);
             dispatch(getUser(response.data))
         })
         .catch((error) =>{
